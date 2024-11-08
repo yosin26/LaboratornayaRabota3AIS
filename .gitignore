@@ -1,0 +1,51 @@
+# Visual Studio
+.vs/
+*.sln
+*.suo
+*.user
+*.userprefs
+*.tss
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bin/
+obj/
+
+# User-specific files
+*.ide
+*.swp
+
+# Visual Studio Code files
+.vscode/
+
+# Resharper
+_ReSharper*/
+*resharper.*
+
+# Rider
+.idea/
+
+# NuGet Packages
+*.nupkg
+packages/
+
+# Visual Studio Temp Files
+*.tmp
+*.temp
+
+# Publish Files
+publish/
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.swp
+*.swo
+
+# Other
+Thumbs.db
