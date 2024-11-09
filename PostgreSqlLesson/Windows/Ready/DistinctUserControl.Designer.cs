@@ -1,6 +1,6 @@
 ﻿namespace PostgreSqlLesson.Windows
 {
-    partial class WhereUserControl
+    partial class DistinctUserControl
     {
         /// <summary> 
         /// Обязательная переменная конструктора.
@@ -49,48 +49,49 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1558, 545);
-            this.tableLayoutPanel2.TabIndex = 1;
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1542, 526);
+            this.tableLayoutPanel2.TabIndex = 2;
             // 
             // flowLayoutPanel2
             // 
-            this.flowLayoutPanel2.BackgroundImage = global::PostgreSqlLesson.Properties.Resources.Снимок_экрана_2024_11_09_200215;
+            this.flowLayoutPanel2.BackgroundImage = global::PostgreSqlLesson.Properties.Resources.Снимок_экрана_2024_11_09_202239;
             this.flowLayoutPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(1041, 3);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(1030, 3);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(514, 539);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(509, 520);
             this.flowLayoutPanel2.TabIndex = 2;
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.BackgroundImage = global::PostgreSqlLesson.Properties.Resources.Снимок_экрана_2024_11_09_195940;
+            this.flowLayoutPanel1.BackgroundImage = global::PostgreSqlLesson.Properties.Resources.Снимок_экрана_2024_11_09_202118;
             this.flowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(522, 3);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(516, 3);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(513, 539);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(508, 520);
             this.flowLayoutPanel1.TabIndex = 1;
+            this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
             // panel1
             // 
-            this.panel1.BackgroundImage = global::PostgreSqlLesson.Properties.Resources.Снимок_экрана_2024_11_09_195924;
+            this.panel1.BackgroundImage = global::PostgreSqlLesson.Properties.Resources.Снимок_экрана_2024_11_09_202101;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(513, 539);
+            this.panel1.Size = new System.Drawing.Size(507, 520);
             this.panel1.TabIndex = 0;
             // 
-            // WhereUserControl
+            // DistinctUserControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.Controls.Add(this.tableLayoutPanel2);
-            this.Name = "WhereUserControl";
+            this.Name = "DistinctUserControl";
             this.Padding = new System.Windows.Forms.Padding(0, 45, 0, 60);
-            this.Size = new System.Drawing.Size(1558, 650);
+            this.Size = new System.Drawing.Size(1542, 631);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
