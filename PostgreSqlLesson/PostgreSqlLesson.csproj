@@ -256,10 +256,10 @@
     <Compile Include="Windows\UnionUserControl.Designer.cs">
       <DependentUpon>UnionUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\WhereUserControl.cs">
+    <Compile Include="Windows\Ready\WhereUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\WhereUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\WhereUserControl.Designer.cs">
       <DependentUpon>WhereUserControl.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="MainWindow\Form1.resx">
@@ -338,7 +338,7 @@
     <EmbeddedResource Include="Windows\UnionUserControl.resx">
       <DependentUpon>UnionUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows\WhereUserControl.resx">
+    <EmbeddedResource Include="Windows\Ready\WhereUserControl.resx">
       <DependentUpon>WhereUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
@@ -366,6 +366,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Снимок экрана 2024-11-09 164627.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 1959241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 1959401.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 2002151.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 2021011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 2021181.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 2022391.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 2036302.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
