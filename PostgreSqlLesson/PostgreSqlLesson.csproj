@@ -238,10 +238,10 @@
     <Compile Include="Windows\RightUserControl.Designer.cs">
       <DependentUpon>RightUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\SelectUserControl.cs">
+    <Compile Include="Windows\Ready\SelectUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\SelectUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\SelectUserControl.Designer.cs">
       <DependentUpon>SelectUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Windows\SubqueriesUserControl.cs">
@@ -278,17 +278,65 @@
     <EmbeddedResource Include="Windows\BetweenInNotinUserControl.resx">
       <DependentUpon>BetweenInNotinUserControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Windows\ColumnСoncatenationUserControl.resx">
+      <DependentUpon>ColumnСoncatenationUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\CrossJoinUserControl.resx">
+      <DependentUpon>CrossJoinUserControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Windows\DB\SchemasUserControl.resx">
       <DependentUpon>SchemasUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\DistinctUserControl.resx">
+      <DependentUpon>DistinctUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\ExceptUserControl.resx">
+      <DependentUpon>ExceptUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\FuncAvgUserControl.resx">
+      <DependentUpon>FuncAvgUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\FuncCountUserControl.resx">
+      <DependentUpon>FuncCountUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\FuncSumUserControl.resx">
+      <DependentUpon>FuncSumUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\GroupByUserControl.resx">
+      <DependentUpon>GroupByUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\HavingUserControl.resx">
       <DependentUpon>HavingUserControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Windows\InnerJoinUserControl.resx">
+      <DependentUpon>InnerJoinUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\IntersectUserControl.resx">
+      <DependentUpon>IntersectUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\LeftJoinUserControl.resx">
+      <DependentUpon>LeftJoinUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\LimitOffsetUserControl.resx">
+      <DependentUpon>LimitOffsetUserControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Windows\MainUserControl.resx">
       <DependentUpon>MainUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows\SelectUserControl.resx">
+    <EmbeddedResource Include="Windows\OrderByUserControl.resx">
+      <DependentUpon>OrderByUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Ready\SelectUserControl.resx">
       <DependentUpon>SelectUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\RightUserControl.resx">
+      <DependentUpon>RightUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\SubqueriesUserControl.resx">
+      <DependentUpon>SubqueriesUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\UnionUserControl.resx">
+      <DependentUpon>UnionUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\WhereUserControl.resx">
       <DependentUpon>WhereUserControl.cs</DependentUpon>
