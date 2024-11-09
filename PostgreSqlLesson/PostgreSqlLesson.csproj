@@ -154,10 +154,10 @@
     <Compile Include="Windows\DB\SchemasUserControl.Designer.cs">
       <DependentUpon>SchemasUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\DistinctUserControl.cs">
+    <Compile Include="Windows\Ready\DistinctUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\DistinctUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\DistinctUserControl.Designer.cs">
       <DependentUpon>DistinctUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Windows\ExceptUserControl.cs">
@@ -287,7 +287,7 @@
     <EmbeddedResource Include="Windows\DB\SchemasUserControl.resx">
       <DependentUpon>SchemasUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows\DistinctUserControl.resx">
+    <EmbeddedResource Include="Windows\Ready\DistinctUserControl.resx">
       <DependentUpon>DistinctUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\ExceptUserControl.resx">
@@ -387,6 +387,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Снимок экрана 2024-11-09 2036302.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 205917.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 205929.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 210315.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

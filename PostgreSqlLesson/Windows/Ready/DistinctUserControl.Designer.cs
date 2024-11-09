@@ -30,8 +30,8 @@
         {
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,7 +49,7 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1542, 526);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1407, 515);
             this.tableLayoutPanel2.TabIndex = 2;
             // 
             // flowLayoutPanel2
@@ -57,21 +57,10 @@
             this.flowLayoutPanel2.BackgroundImage = global::PostgreSqlLesson.Properties.Resources.Снимок_экрана_2024_11_09_202239;
             this.flowLayoutPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(1030, 3);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(940, 3);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(509, 520);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(464, 509);
             this.flowLayoutPanel2.TabIndex = 2;
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackgroundImage = global::PostgreSqlLesson.Properties.Resources.Снимок_экрана_2024_11_09_202118;
-            this.flowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(516, 3);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(508, 520);
-            this.flowLayoutPanel1.TabIndex = 1;
-            this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
             // panel1
             // 
@@ -80,8 +69,18 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(507, 520);
+            this.panel1.Size = new System.Drawing.Size(462, 509);
             this.panel1.TabIndex = 0;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackgroundImage = global::PostgreSqlLesson.Properties.Resources.Снимок_экрана_2024_11_09_202118;
+            this.flowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(471, 3);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(463, 509);
+            this.flowLayoutPanel1.TabIndex = 1;
             // 
             // DistinctUserControl
             // 
@@ -91,7 +90,7 @@
             this.Controls.Add(this.tableLayoutPanel2);
             this.Name = "DistinctUserControl";
             this.Padding = new System.Windows.Forms.Padding(0, 45, 0, 60);
-            this.Size = new System.Drawing.Size(1542, 631);
+            this.Size = new System.Drawing.Size(1407, 620);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
