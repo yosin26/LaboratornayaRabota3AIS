@@ -30,6 +30,26 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button20 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -135,26 +155,6 @@
             this.button40 = new System.Windows.Forms.Button();
             this.panel43 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -252,6 +252,226 @@
             this.panel2.Padding = new System.Windows.Forms.Padding(5);
             this.panel2.Size = new System.Drawing.Size(277, 1061);
             this.panel2.TabIndex = 1;
+            // 
+            // button20
+            // 
+            this.button20.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button20.Location = new System.Drawing.Point(17, 692);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(240, 30);
+            this.button20.TabIndex = 0;
+            this.button20.Text = "КОНКАТЕНАЦИЯ СТОЛБЦОВ";
+            this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(17, 8);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(240, 30);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Команда SELECT";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // button6
+            // 
+            this.button6.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(17, 188);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(240, 30);
+            this.button6.TabIndex = 0;
+            this.button6.Text = "ORDER BY";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button14
+            // 
+            this.button14.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button14.Location = new System.Drawing.Point(17, 476);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(240, 30);
+            this.button14.TabIndex = 0;
+            this.button14.Text = "RIGHT JOIN";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
+            // button19
+            // 
+            this.button19.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button19.Location = new System.Drawing.Point(17, 656);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(240, 30);
+            this.button19.TabIndex = 0;
+            this.button19.Text = "ПОДЗАПРОСЫ";
+            this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
+            // 
+            // button15
+            // 
+            this.button15.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button15.Location = new System.Drawing.Point(17, 512);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(240, 30);
+            this.button15.TabIndex = 0;
+            this.button15.Text = "CROSS JOIN";
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
+            // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Location = new System.Drawing.Point(17, 224);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(240, 30);
+            this.button7.TabIndex = 0;
+            this.button7.Text = "LIMIT/OFFSET";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(17, 44);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(240, 30);
+            this.button2.TabIndex = 0;
+            this.button2.Text = "УСЛОВИЕ ВЫБОРКИ (WHERE)";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(17, 152);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(240, 30);
+            this.button5.TabIndex = 0;
+            this.button5.Text = "GROUP BY";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button10
+            // 
+            this.button10.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.Location = new System.Drawing.Point(17, 332);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(240, 30);
+            this.button10.TabIndex = 0;
+            this.button10.Text = "EXCEPT";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // button13
+            // 
+            this.button13.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.Location = new System.Drawing.Point(17, 440);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(240, 30);
+            this.button13.TabIndex = 0;
+            this.button13.Text = "LEFT JOIN";
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // button18
+            // 
+            this.button18.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button18.Location = new System.Drawing.Point(17, 620);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(240, 30);
+            this.button18.TabIndex = 0;
+            this.button18.Text = "ФУНКЦИЯ COUNT";
+            this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
+            // 
+            // button16
+            // 
+            this.button16.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button16.Location = new System.Drawing.Point(17, 548);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(240, 30);
+            this.button16.TabIndex = 0;
+            this.button16.Text = "ФУНКЦИЯ AVG";
+            this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
+            // 
+            // button11
+            // 
+            this.button11.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.Location = new System.Drawing.Point(17, 368);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(240, 30);
+            this.button11.TabIndex = 0;
+            this.button11.Text = "DISTINCT";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
+            // button8
+            // 
+            this.button8.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Location = new System.Drawing.Point(17, 260);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(240, 30);
+            this.button8.TabIndex = 0;
+            this.button8.Text = "UNION";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(17, 80);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(240, 30);
+            this.button3.TabIndex = 0;
+            this.button3.Text = "УСЛОВИЕ ВЫБОРКИ (HAVING)";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button4
+            // 
+            this.button4.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(17, 116);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(240, 30);
+            this.button4.TabIndex = 0;
+            this.button4.Text = "BETWEEN/IN/NOT IN";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button9
+            // 
+            this.button9.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.Location = new System.Drawing.Point(17, 296);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(240, 30);
+            this.button9.TabIndex = 0;
+            this.button9.Text = "INTERSECT";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // button12
+            // 
+            this.button12.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.Location = new System.Drawing.Point(17, 404);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(240, 30);
+            this.button12.TabIndex = 0;
+            this.button12.Text = "INNER JOIN";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
+            // button17
+            // 
+            this.button17.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button17.Location = new System.Drawing.Point(17, 584);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(240, 30);
+            this.button17.TabIndex = 0;
+            this.button17.Text = "ФУНКЦИЯ SUM";
+            this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // pictureBox1
             // 
@@ -446,7 +666,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 44);
             this.tabPage2.Margin = new System.Windows.Forms.Padding(0);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Size = new System.Drawing.Size(1277, 971);
+            this.tabPage2.Size = new System.Drawing.Size(1277, 1013);
             this.tabPage2.TabIndex = 22;
             this.tabPage2.Text = "tabPage2";
             // 
@@ -495,7 +715,7 @@
             this.panel9.Location = new System.Drawing.Point(0, 0);
             this.panel9.Margin = new System.Windows.Forms.Padding(0);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(1277, 971);
+            this.panel9.Size = new System.Drawing.Size(1277, 1013);
             this.panel9.TabIndex = 0;
             // 
             // tabPage3
@@ -506,7 +726,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 44);
             this.tabPage3.Margin = new System.Windows.Forms.Padding(0);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1277, 971);
+            this.tabPage3.Size = new System.Drawing.Size(1277, 1013);
             this.tabPage3.TabIndex = 23;
             this.tabPage3.Text = "tabPage3";
             // 
@@ -555,7 +775,7 @@
             this.panel11.Location = new System.Drawing.Point(0, 0);
             this.panel11.Margin = new System.Windows.Forms.Padding(0);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(1277, 971);
+            this.panel11.Size = new System.Drawing.Size(1277, 1013);
             this.panel11.TabIndex = 0;
             // 
             // tabPage4
@@ -566,7 +786,7 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 44);
             this.tabPage4.Margin = new System.Windows.Forms.Padding(0);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(1277, 971);
+            this.tabPage4.Size = new System.Drawing.Size(1277, 1013);
             this.tabPage4.TabIndex = 24;
             this.tabPage4.Text = "tabPage4";
             // 
@@ -615,7 +835,7 @@
             this.panel13.Location = new System.Drawing.Point(0, 0);
             this.panel13.Margin = new System.Windows.Forms.Padding(0);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(1277, 971);
+            this.panel13.Size = new System.Drawing.Size(1277, 1013);
             this.panel13.TabIndex = 0;
             // 
             // tabPage5
@@ -626,7 +846,7 @@
             this.tabPage5.Location = new System.Drawing.Point(4, 44);
             this.tabPage5.Margin = new System.Windows.Forms.Padding(0);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(1277, 971);
+            this.tabPage5.Size = new System.Drawing.Size(1277, 1013);
             this.tabPage5.TabIndex = 25;
             this.tabPage5.Text = "tabPage5";
             // 
@@ -675,7 +895,7 @@
             this.panel15.Location = new System.Drawing.Point(0, 0);
             this.panel15.Margin = new System.Windows.Forms.Padding(0);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(1277, 971);
+            this.panel15.Size = new System.Drawing.Size(1277, 1013);
             this.panel15.TabIndex = 0;
             // 
             // tabPage6
@@ -686,7 +906,7 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 44);
             this.tabPage6.Margin = new System.Windows.Forms.Padding(0);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(1277, 971);
+            this.tabPage6.Size = new System.Drawing.Size(1277, 1013);
             this.tabPage6.TabIndex = 26;
             this.tabPage6.Text = "tabPage6";
             // 
@@ -735,7 +955,7 @@
             this.panel17.Location = new System.Drawing.Point(0, 0);
             this.panel17.Margin = new System.Windows.Forms.Padding(0);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(1277, 971);
+            this.panel17.Size = new System.Drawing.Size(1277, 1013);
             this.panel17.TabIndex = 0;
             // 
             // tabPage7
@@ -746,7 +966,7 @@
             this.tabPage7.Location = new System.Drawing.Point(4, 44);
             this.tabPage7.Margin = new System.Windows.Forms.Padding(0);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(1277, 971);
+            this.tabPage7.Size = new System.Drawing.Size(1277, 1013);
             this.tabPage7.TabIndex = 27;
             this.tabPage7.Text = "tabPage7";
             // 
@@ -795,7 +1015,7 @@
             this.panel19.Location = new System.Drawing.Point(0, 0);
             this.panel19.Margin = new System.Windows.Forms.Padding(0);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(1277, 971);
+            this.panel19.Size = new System.Drawing.Size(1277, 1013);
             this.panel19.TabIndex = 0;
             // 
             // tabPage8
@@ -806,7 +1026,7 @@
             this.tabPage8.Location = new System.Drawing.Point(4, 44);
             this.tabPage8.Margin = new System.Windows.Forms.Padding(0);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Size = new System.Drawing.Size(1277, 971);
+            this.tabPage8.Size = new System.Drawing.Size(1277, 1013);
             this.tabPage8.TabIndex = 28;
             this.tabPage8.Text = "tabPage8";
             // 
@@ -855,7 +1075,7 @@
             this.panel21.Location = new System.Drawing.Point(0, 0);
             this.panel21.Margin = new System.Windows.Forms.Padding(0);
             this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(1277, 971);
+            this.panel21.Size = new System.Drawing.Size(1277, 1013);
             this.panel21.TabIndex = 0;
             // 
             // tabPage9
@@ -866,7 +1086,7 @@
             this.tabPage9.Location = new System.Drawing.Point(4, 44);
             this.tabPage9.Margin = new System.Windows.Forms.Padding(0);
             this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Size = new System.Drawing.Size(1277, 971);
+            this.tabPage9.Size = new System.Drawing.Size(1277, 1013);
             this.tabPage9.TabIndex = 29;
             this.tabPage9.Text = "tabPage9";
             // 
@@ -915,7 +1135,7 @@
             this.panel23.Location = new System.Drawing.Point(0, 0);
             this.panel23.Margin = new System.Windows.Forms.Padding(0);
             this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(1277, 971);
+            this.panel23.Size = new System.Drawing.Size(1277, 1013);
             this.panel23.TabIndex = 0;
             // 
             // tabPage10
@@ -926,7 +1146,7 @@
             this.tabPage10.Location = new System.Drawing.Point(4, 44);
             this.tabPage10.Margin = new System.Windows.Forms.Padding(0);
             this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Size = new System.Drawing.Size(1277, 971);
+            this.tabPage10.Size = new System.Drawing.Size(1277, 1013);
             this.tabPage10.TabIndex = 30;
             this.tabPage10.Text = "tabPage10";
             // 
@@ -975,7 +1195,7 @@
             this.panel25.Location = new System.Drawing.Point(0, 0);
             this.panel25.Margin = new System.Windows.Forms.Padding(0);
             this.panel25.Name = "panel25";
-            this.panel25.Size = new System.Drawing.Size(1277, 971);
+            this.panel25.Size = new System.Drawing.Size(1277, 1013);
             this.panel25.TabIndex = 0;
             // 
             // tabPage11
@@ -986,7 +1206,7 @@
             this.tabPage11.Location = new System.Drawing.Point(4, 44);
             this.tabPage11.Margin = new System.Windows.Forms.Padding(0);
             this.tabPage11.Name = "tabPage11";
-            this.tabPage11.Size = new System.Drawing.Size(1277, 971);
+            this.tabPage11.Size = new System.Drawing.Size(1277, 1013);
             this.tabPage11.TabIndex = 31;
             this.tabPage11.Text = "tabPage11";
             // 
@@ -1035,7 +1255,7 @@
             this.panel27.Location = new System.Drawing.Point(0, 0);
             this.panel27.Margin = new System.Windows.Forms.Padding(0);
             this.panel27.Name = "panel27";
-            this.panel27.Size = new System.Drawing.Size(1277, 971);
+            this.panel27.Size = new System.Drawing.Size(1277, 1013);
             this.panel27.TabIndex = 0;
             // 
             // tabPage12
@@ -1046,7 +1266,7 @@
             this.tabPage12.Location = new System.Drawing.Point(4, 44);
             this.tabPage12.Margin = new System.Windows.Forms.Padding(0);
             this.tabPage12.Name = "tabPage12";
-            this.tabPage12.Size = new System.Drawing.Size(1277, 971);
+            this.tabPage12.Size = new System.Drawing.Size(1277, 1013);
             this.tabPage12.TabIndex = 32;
             this.tabPage12.Text = "tabPage12";
             // 
@@ -1095,7 +1315,7 @@
             this.panel29.Location = new System.Drawing.Point(0, 0);
             this.panel29.Margin = new System.Windows.Forms.Padding(0);
             this.panel29.Name = "panel29";
-            this.panel29.Size = new System.Drawing.Size(1277, 971);
+            this.panel29.Size = new System.Drawing.Size(1277, 1013);
             this.panel29.TabIndex = 0;
             // 
             // tabPage13
@@ -1106,7 +1326,7 @@
             this.tabPage13.Location = new System.Drawing.Point(4, 44);
             this.tabPage13.Margin = new System.Windows.Forms.Padding(0);
             this.tabPage13.Name = "tabPage13";
-            this.tabPage13.Size = new System.Drawing.Size(1277, 971);
+            this.tabPage13.Size = new System.Drawing.Size(1277, 1013);
             this.tabPage13.TabIndex = 33;
             this.tabPage13.Text = "tabPage13";
             // 
@@ -1155,7 +1375,7 @@
             this.panel31.Location = new System.Drawing.Point(0, 0);
             this.panel31.Margin = new System.Windows.Forms.Padding(0);
             this.panel31.Name = "panel31";
-            this.panel31.Size = new System.Drawing.Size(1277, 971);
+            this.panel31.Size = new System.Drawing.Size(1277, 1013);
             this.panel31.TabIndex = 0;
             // 
             // tabPage14
@@ -1166,7 +1386,7 @@
             this.tabPage14.Location = new System.Drawing.Point(4, 44);
             this.tabPage14.Margin = new System.Windows.Forms.Padding(0);
             this.tabPage14.Name = "tabPage14";
-            this.tabPage14.Size = new System.Drawing.Size(1277, 971);
+            this.tabPage14.Size = new System.Drawing.Size(1277, 1013);
             this.tabPage14.TabIndex = 34;
             this.tabPage14.Text = "tabPage14";
             // 
@@ -1215,7 +1435,7 @@
             this.panel33.Location = new System.Drawing.Point(0, 0);
             this.panel33.Margin = new System.Windows.Forms.Padding(0);
             this.panel33.Name = "panel33";
-            this.panel33.Size = new System.Drawing.Size(1277, 971);
+            this.panel33.Size = new System.Drawing.Size(1277, 1013);
             this.panel33.TabIndex = 0;
             // 
             // tabPage15
@@ -1226,7 +1446,7 @@
             this.tabPage15.Location = new System.Drawing.Point(4, 44);
             this.tabPage15.Margin = new System.Windows.Forms.Padding(0);
             this.tabPage15.Name = "tabPage15";
-            this.tabPage15.Size = new System.Drawing.Size(1277, 971);
+            this.tabPage15.Size = new System.Drawing.Size(1277, 1013);
             this.tabPage15.TabIndex = 35;
             this.tabPage15.Text = "tabPage15";
             // 
@@ -1275,7 +1495,7 @@
             this.panel35.Location = new System.Drawing.Point(0, 0);
             this.panel35.Margin = new System.Windows.Forms.Padding(0);
             this.panel35.Name = "panel35";
-            this.panel35.Size = new System.Drawing.Size(1277, 971);
+            this.panel35.Size = new System.Drawing.Size(1277, 1013);
             this.panel35.TabIndex = 0;
             // 
             // tabPage16
@@ -1286,7 +1506,7 @@
             this.tabPage16.Location = new System.Drawing.Point(4, 44);
             this.tabPage16.Margin = new System.Windows.Forms.Padding(0);
             this.tabPage16.Name = "tabPage16";
-            this.tabPage16.Size = new System.Drawing.Size(1277, 971);
+            this.tabPage16.Size = new System.Drawing.Size(1277, 1013);
             this.tabPage16.TabIndex = 36;
             this.tabPage16.Text = "tabPage16";
             // 
@@ -1335,7 +1555,7 @@
             this.panel37.Location = new System.Drawing.Point(0, 0);
             this.panel37.Margin = new System.Windows.Forms.Padding(0);
             this.panel37.Name = "panel37";
-            this.panel37.Size = new System.Drawing.Size(1277, 971);
+            this.panel37.Size = new System.Drawing.Size(1277, 1013);
             this.panel37.TabIndex = 0;
             // 
             // tabPage17
@@ -1346,7 +1566,7 @@
             this.tabPage17.Location = new System.Drawing.Point(4, 44);
             this.tabPage17.Margin = new System.Windows.Forms.Padding(0);
             this.tabPage17.Name = "tabPage17";
-            this.tabPage17.Size = new System.Drawing.Size(1277, 971);
+            this.tabPage17.Size = new System.Drawing.Size(1277, 1013);
             this.tabPage17.TabIndex = 37;
             this.tabPage17.Text = "tabPage17";
             // 
@@ -1395,7 +1615,7 @@
             this.panel39.Location = new System.Drawing.Point(0, 0);
             this.panel39.Margin = new System.Windows.Forms.Padding(0);
             this.panel39.Name = "panel39";
-            this.panel39.Size = new System.Drawing.Size(1277, 971);
+            this.panel39.Size = new System.Drawing.Size(1277, 1013);
             this.panel39.TabIndex = 0;
             // 
             // tabPage18
@@ -1406,7 +1626,7 @@
             this.tabPage18.Location = new System.Drawing.Point(4, 44);
             this.tabPage18.Margin = new System.Windows.Forms.Padding(0);
             this.tabPage18.Name = "tabPage18";
-            this.tabPage18.Size = new System.Drawing.Size(1277, 971);
+            this.tabPage18.Size = new System.Drawing.Size(1277, 1013);
             this.tabPage18.TabIndex = 38;
             this.tabPage18.Text = "tabPage18";
             // 
@@ -1455,7 +1675,7 @@
             this.panel41.Location = new System.Drawing.Point(0, 0);
             this.panel41.Margin = new System.Windows.Forms.Padding(0);
             this.panel41.Name = "panel41";
-            this.panel41.Size = new System.Drawing.Size(1277, 971);
+            this.panel41.Size = new System.Drawing.Size(1277, 1013);
             this.panel41.TabIndex = 0;
             // 
             // tabPage19
@@ -1466,7 +1686,7 @@
             this.tabPage19.Location = new System.Drawing.Point(4, 44);
             this.tabPage19.Margin = new System.Windows.Forms.Padding(0);
             this.tabPage19.Name = "tabPage19";
-            this.tabPage19.Size = new System.Drawing.Size(1277, 971);
+            this.tabPage19.Size = new System.Drawing.Size(1277, 1013);
             this.tabPage19.TabIndex = 39;
             this.tabPage19.Text = "tabPage19";
             // 
@@ -1515,7 +1735,7 @@
             this.panel43.Location = new System.Drawing.Point(0, 0);
             this.panel43.Margin = new System.Windows.Forms.Padding(0);
             this.panel43.Name = "panel43";
-            this.panel43.Size = new System.Drawing.Size(1277, 971);
+            this.panel43.Size = new System.Drawing.Size(1277, 1013);
             this.panel43.TabIndex = 0;
             // 
             // panel3
@@ -1528,226 +1748,6 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1285, 1061);
             this.panel3.TabIndex = 3;
-            // 
-            // button17
-            // 
-            this.button17.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button17.Location = new System.Drawing.Point(17, 584);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(240, 30);
-            this.button17.TabIndex = 0;
-            this.button17.Text = "ФУНКЦИЯ SUM";
-            this.button17.UseVisualStyleBackColor = true;
-            this.button17.Click += new System.EventHandler(this.button17_Click);
-            // 
-            // button12
-            // 
-            this.button12.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.Location = new System.Drawing.Point(17, 404);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(240, 30);
-            this.button12.TabIndex = 0;
-            this.button12.Text = "INNER JOIN";
-            this.button12.UseVisualStyleBackColor = true;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
-            // 
-            // button9
-            // 
-            this.button9.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(17, 296);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(240, 30);
-            this.button9.TabIndex = 0;
-            this.button9.Text = "INTERSECT";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
-            // 
-            // button4
-            // 
-            this.button4.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(17, 116);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(240, 30);
-            this.button4.TabIndex = 0;
-            this.button4.Text = "BETWEEN/IN/NOT IN";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(17, 80);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(240, 30);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "УСЛОВИЕ ВЫБОРКИ (HAVING)";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button8
-            // 
-            this.button8.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(17, 260);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(240, 30);
-            this.button8.TabIndex = 0;
-            this.button8.Text = "UNION";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
-            // button11
-            // 
-            this.button11.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(17, 368);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(240, 30);
-            this.button11.TabIndex = 0;
-            this.button11.Text = "DISTINCT";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
-            // 
-            // button16
-            // 
-            this.button16.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button16.Location = new System.Drawing.Point(17, 548);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(240, 30);
-            this.button16.TabIndex = 0;
-            this.button16.Text = "ФУНКЦИЯ AVG";
-            this.button16.UseVisualStyleBackColor = true;
-            this.button16.Click += new System.EventHandler(this.button16_Click);
-            // 
-            // button18
-            // 
-            this.button18.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.Location = new System.Drawing.Point(17, 620);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(240, 30);
-            this.button18.TabIndex = 0;
-            this.button18.Text = "ФУНКЦИЯ COUNT";
-            this.button18.UseVisualStyleBackColor = true;
-            this.button18.Click += new System.EventHandler(this.button18_Click);
-            // 
-            // button13
-            // 
-            this.button13.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.Location = new System.Drawing.Point(17, 440);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(240, 30);
-            this.button13.TabIndex = 0;
-            this.button13.Text = "LEFT JOIN";
-            this.button13.UseVisualStyleBackColor = true;
-            this.button13.Click += new System.EventHandler(this.button13_Click);
-            // 
-            // button10
-            // 
-            this.button10.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(17, 332);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(240, 30);
-            this.button10.TabIndex = 0;
-            this.button10.Text = "EXCEPT";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
-            // 
-            // button5
-            // 
-            this.button5.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(17, 152);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(240, 30);
-            this.button5.TabIndex = 0;
-            this.button5.Text = "GROUP BY";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(17, 44);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(240, 30);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "УСЛОВИЕ ВЫБОРКИ (WHERE)";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button7
-            // 
-            this.button7.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(17, 224);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(240, 30);
-            this.button7.TabIndex = 0;
-            this.button7.Text = "LIMIT/OFFSET";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
-            // 
-            // button15
-            // 
-            this.button15.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.Location = new System.Drawing.Point(17, 512);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(240, 30);
-            this.button15.TabIndex = 0;
-            this.button15.Text = "CROSS JOIN";
-            this.button15.UseVisualStyleBackColor = true;
-            this.button15.Click += new System.EventHandler(this.button15_Click);
-            // 
-            // button19
-            // 
-            this.button19.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button19.Location = new System.Drawing.Point(17, 656);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(240, 30);
-            this.button19.TabIndex = 0;
-            this.button19.Text = "ПОДЗАПРОСЫ";
-            this.button19.UseVisualStyleBackColor = true;
-            this.button19.Click += new System.EventHandler(this.button19_Click);
-            // 
-            // button14
-            // 
-            this.button14.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.Location = new System.Drawing.Point(17, 476);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(240, 30);
-            this.button14.TabIndex = 0;
-            this.button14.Text = "RIGHT JOIN";
-            this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.button14_Click);
-            // 
-            // button6
-            // 
-            this.button6.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(17, 188);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(240, 30);
-            this.button6.TabIndex = 0;
-            this.button6.Text = "ORDER BY";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(17, 8);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(240, 30);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Команда SELECT";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
-            // 
-            // button20
-            // 
-            this.button20.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button20.Location = new System.Drawing.Point(17, 692);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(240, 30);
-            this.button20.TabIndex = 0;
-            this.button20.Text = "КОНКАТЕНАЦИЯ СТОЛБЦОВ";
-            this.button20.UseVisualStyleBackColor = true;
-            this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
             // Form1
             // 
