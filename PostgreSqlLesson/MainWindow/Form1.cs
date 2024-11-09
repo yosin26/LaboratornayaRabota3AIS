@@ -3,6 +3,7 @@ using System.Windows.Forms;
 using System.Drawing;
 using System.Collections.Generic;
 using PostgreSqlLesson.Windows;
+using PostgreSqlLesson.Windows.DB;
 
 namespace PostgreSqlLesson
 {
@@ -442,7 +443,7 @@ namespace PostgreSqlLesson
             OpenUserControlInPanel(_countControl, panel39);
         }
 
-        private void button39_Click(object sender, EventArgs e)
+        private void button39_Click_1(object sender, EventArgs e)
         {
             _subqueryControl = new SubqueriesUserControl();
             ToggleUserControl(_subqueryControl, panel41, button39, "Теория");
@@ -466,6 +467,69 @@ namespace PostgreSqlLesson
             main_control.SelectTab(19);
             _concatControl = new ColumnСoncatenationUserControl ();
             OpenUserControlInPanel(_concatControl, panel43);
+        }
+
+        private void tableLayoutPanel15_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private UserControl _currentControl;
+        private bool isMainControlVisible = true;
+        private int _lastSelectedTabIndex = 0;
+
+        private void ToggleUserControl(UserControl newControl, Panel targetPanel, Button toggleButton)
+        {
+            if (isMainControlVisible)
+            {
+                // Сохраняем текущий индекс активной вкладки
+                _lastSelectedTabIndex = main_control.SelectedIndex;
+
+                // Скрываем main_control и заменяем его на новый UserControl
+                targetPanel.Controls.Clear();
+                newControl.Dock = DockStyle.Fill;
+                targetPanel.Controls.Add(newControl);
+                newControl.BringToFront();
+
+                // Обновляем состояние
+                _currentControl = newControl;
+                isMainControlVisible = false;
+                toggleButton.Text = "Вернуться";
+            }
+            else
+            {
+                // Возвращаем main_control на панель
+                targetPanel.Controls.Clear();
+                main_control.Dock = DockStyle.Fill;
+                targetPanel.Controls.Add(main_control);
+                main_control.BringToFront();
+
+                // Устанавливаем ранее выбранный индекс вкладки
+                main_control.SelectedIndex = _lastSelectedTabIndex;
+
+                // Обновляем состояние
+                isMainControlVisible = true;
+                toggleButton.Text = " ";
+            }
+        }
+
+        private void button42_Click(object sender, EventArgs e)
+        {
+            // Создаем новый UserControl для отображения
+            var schemasControl = new SchemasUserControl();
+            ToggleUserControl(schemasControl, panel3, button42);
+        }
+
+
+
+        private void button43_Click(object sender, EventArgs e)
+        {
+            //таблицы 
+        }
+
+        private void button45_Click(object sender, EventArgs e)
+        {
+            //Описание БД
         }
     }
 }

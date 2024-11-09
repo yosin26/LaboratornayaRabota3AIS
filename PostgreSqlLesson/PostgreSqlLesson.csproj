@@ -148,6 +148,12 @@
     <Compile Include="Windows\CrossJoinUserControl.Designer.cs">
       <DependentUpon>CrossJoinUserControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Windows\DB\SchemasUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\DB\SchemasUserControl.Designer.cs">
+      <DependentUpon>SchemasUserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Windows\DistinctUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -267,9 +273,13 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Windows\BetweenInNotinUserControl.resx">
       <DependentUpon>BetweenInNotinUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\DB\SchemasUserControl.resx">
+      <DependentUpon>SchemasUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\HavingUserControl.resx">
       <DependentUpon>HavingUserControl.cs</DependentUpon>
@@ -296,6 +306,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 162431.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 163833.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 164259.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 164627.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

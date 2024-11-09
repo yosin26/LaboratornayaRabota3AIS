@@ -227,6 +227,9 @@ namespace PostgreSqlLesson.Windows
             richTextBox2.SelectionColor = Color.Black;
         }
 
+        private void richTextBox2_TextChanged_1(object sender, EventArgs e)
+        {
 
+        }
     }
 }
