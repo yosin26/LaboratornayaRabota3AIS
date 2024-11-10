@@ -208,10 +208,10 @@
     <Compile Include="Windows\Ready\IntersectUserControl.Designer.cs">
       <DependentUpon>IntersectUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\LeftJoinUserControl.cs">
+    <Compile Include="Windows\Ready\LeftJoinUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\LeftJoinUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\LeftJoinUserControl.Designer.cs">
       <DependentUpon>LeftJoinUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Windows\Ready\LimitOffsetUserControl.cs">
@@ -314,7 +314,7 @@
     <EmbeddedResource Include="Windows\Ready\IntersectUserControl.resx">
       <DependentUpon>IntersectUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows\LeftJoinUserControl.resx">
+    <EmbeddedResource Include="Windows\Ready\LeftJoinUserControl.resx">
       <DependentUpon>LeftJoinUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\Ready\LimitOffsetUserControl.resx">
