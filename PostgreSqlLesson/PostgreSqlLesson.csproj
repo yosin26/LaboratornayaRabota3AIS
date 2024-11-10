@@ -184,16 +184,16 @@
     <Compile Include="Windows\FuncSumUserControl.Designer.cs">
       <DependentUpon>FuncSumUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\GroupByUserControl.cs">
+    <Compile Include="Windows\Ready\GroupByUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\GroupByUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\GroupByUserControl.Designer.cs">
       <DependentUpon>GroupByUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\HavingUserControl.cs">
+    <Compile Include="Windows\Ready\HavingUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\HavingUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\HavingUserControl.Designer.cs">
       <DependentUpon>HavingUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Windows\InnerJoinUserControl.cs">
@@ -302,10 +302,10 @@
     <EmbeddedResource Include="Windows\FuncSumUserControl.resx">
       <DependentUpon>FuncSumUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows\GroupByUserControl.resx">
+    <EmbeddedResource Include="Windows\Ready\GroupByUserControl.resx">
       <DependentUpon>GroupByUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows\HavingUserControl.resx">
+    <EmbeddedResource Include="Windows\Ready\HavingUserControl.resx">
       <DependentUpon>HavingUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\InnerJoinUserControl.resx">
@@ -399,6 +399,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Снимок экрана 2024-11-10 171321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 172106.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 172118.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 172405.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
