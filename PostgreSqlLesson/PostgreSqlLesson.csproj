@@ -142,10 +142,10 @@
     <Compile Include="Windows\ColumnСoncatenationUserControl.Designer.cs">
       <DependentUpon>ColumnСoncatenationUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\CrossJoinUserControl.cs">
+    <Compile Include="Windows\Ready\CrossJoinUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\CrossJoinUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\CrossJoinUserControl.Designer.cs">
       <DependentUpon>CrossJoinUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Windows\DB\SchemasUserControl.cs">
@@ -166,10 +166,10 @@
     <Compile Include="Windows\Ready\ExceptUserControl.Designer.cs">
       <DependentUpon>ExceptUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\FuncAvgUserControl.cs">
+    <Compile Include="Windows\Ready\FuncAvgUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\FuncAvgUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\FuncAvgUserControl.Designer.cs">
       <DependentUpon>FuncAvgUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Windows\FuncCountUserControl.cs">
@@ -178,10 +178,10 @@
     <Compile Include="Windows\FuncCountUserControl.Designer.cs">
       <DependentUpon>FuncCountUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\FuncSumUserControl.cs">
+    <Compile Include="Windows\Ready\FuncSumUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\FuncSumUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\FuncSumUserControl.Designer.cs">
       <DependentUpon>FuncSumUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Windows\Ready\GroupByUserControl.cs">
@@ -281,7 +281,7 @@
     <EmbeddedResource Include="Windows\ColumnСoncatenationUserControl.resx">
       <DependentUpon>ColumnСoncatenationUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows\CrossJoinUserControl.resx">
+    <EmbeddedResource Include="Windows\Ready\CrossJoinUserControl.resx">
       <DependentUpon>CrossJoinUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\DB\SchemasUserControl.resx">
@@ -293,13 +293,13 @@
     <EmbeddedResource Include="Windows\Ready\ExceptUserControl.resx">
       <DependentUpon>ExceptUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows\FuncAvgUserControl.resx">
+    <EmbeddedResource Include="Windows\Ready\FuncAvgUserControl.resx">
       <DependentUpon>FuncAvgUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\FuncCountUserControl.resx">
       <DependentUpon>FuncCountUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows\FuncSumUserControl.resx">
+    <EmbeddedResource Include="Windows\Ready\FuncSumUserControl.resx">
       <DependentUpon>FuncSumUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\Ready\GroupByUserControl.resx">
@@ -480,6 +480,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Снимок экрана 2024-11-10 213429.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 214051.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 214103.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 214111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 214430.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 214446.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 214506.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 214951.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 215004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 215013.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
