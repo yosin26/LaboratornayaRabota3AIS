@@ -31,7 +31,7 @@ namespace PostgreSqlLesson
         private FuncAvgUserControl _avgControl;                    //  8
 
         private FuncCountUserControl _countControl;                 // 9
-        
+
         private FuncSumUserControl _sumControl;                    //  10
 
         private GroupByUserControl _groupByControl;               //   11
@@ -70,7 +70,7 @@ namespace PostgreSqlLesson
             menuWidth = panel2.Width;
             isMenuVisible = false;
             panel2.Width = 0; // Начальное значение скрытой панели
-           
+
             // Инициализация таймера
             menuTimer = new Timer();
             menuTimer.Interval = 1; // Интервал таймера для анимации
@@ -82,7 +82,7 @@ namespace PostgreSqlLesson
             wordList.Add("INSERT");
             wordList.Add("DELETE");
 
-            
+
 
 
             // Создаем и открываем UserControl Select при загрузке основной формы
@@ -128,22 +128,22 @@ namespace PostgreSqlLesson
             menuTimer.Start();
         }
 
-       
 
- 
+
+
 
 
 
         // Ensure to call this in your Form1_Load or after initializing the TabControl
         private void Form1_Load(object sender, EventArgs e)
         {
-                    
+
         }
 
 
 
 
-        
+
 
 
         private void OpenUserControlInPanel(UserControl userControl)
@@ -458,14 +458,14 @@ namespace PostgreSqlLesson
 
         private void button40_Click(object sender, EventArgs e)
         {
-            _concatControl = new ColumnСoncatenationUserControl ();
+            _concatControl = new ColumnСoncatenationUserControl();
             ToggleUserControl(_concatControl, panel43, button40, "Теория");
         }
 
         private void button20_Click(object sender, EventArgs e)
         {
             main_control.SelectTab(19);
-            _concatControl = new ColumnСoncatenationUserControl ();
+            _concatControl = new ColumnСoncatenationUserControl();
             OpenUserControlInPanel(_concatControl, panel43);
         }
 
@@ -474,14 +474,39 @@ namespace PostgreSqlLesson
 
         }
 
+        private void EnableAllButtons()
+        {
+            EnableAllButtonsRecursive(this);
+        }
+
+        private void EnableAllButtonsRecursive(Control parent)
+        {
+            foreach (Control control in parent.Controls)
+            {
+                if (control is Button button)
+                {
+                    button.Enabled = true;
+                }
+                else
+                {
+                    EnableAllButtonsRecursive(control); // Рекурсивный вызов для вложенных контейнеров
+                }
+            }
+        }
+
+
         private UserControl _currentControl;
         private bool isMainControlVisible = true;
         private int _lastSelectedTabIndex = 0;
+        private Button _activeButton;
 
-        private void ToggleUserControl(UserControl newControl, Panel targetPanel, Button toggleButton)
+        private void ToggleUserControl1(UserControl newControl, Panel targetPanel, Button toggleButton, string toggleText)
         {
             if (isMainControlVisible)
             {
+                // Блокируем остальные кнопки
+                DisableButtonsExcept(toggleButton);
+
                 // Сохраняем текущий индекс активной вкладки
                 _lastSelectedTabIndex = main_control.SelectedIndex;
 
@@ -494,6 +519,7 @@ namespace PostgreSqlLesson
                 // Обновляем состояние
                 _currentControl = newControl;
                 isMainControlVisible = false;
+                _activeButton = toggleButton;
                 toggleButton.Text = "Вернуться";
             }
             else
@@ -509,27 +535,46 @@ namespace PostgreSqlLesson
 
                 // Обновляем состояние
                 isMainControlVisible = true;
-                toggleButton.Text = " ";
+                _activeButton = null;
+                toggleButton.Text = toggleText;
+
+                // Разблокируем все кнопки
+                EnableAllButtons();
             }
         }
 
-        private void button42_Click(object sender, EventArgs e)
+        private void DisableButtonsExcept(Button activeButton)
         {
-            // Создаем новый UserControl для отображения
-            var schemasControl = new SchemasUserControl();
-            ToggleUserControl(schemasControl, panel3, button42);
+            foreach (Control control in activeButton.Parent.Controls)
+            {
+                if (control is Button button && button != activeButton)
+                {
+                    button.Enabled = false;
+                }
+            }
         }
 
+      
 
+
+
+        private void button42_Click(object sender, EventArgs e)
+        {
+            var schemasControl = new SchemasUserControl();
+            ToggleUserControl1(schemasControl, panel3, button42, "Схема");
+        }
 
         private void button43_Click(object sender, EventArgs e)
         {
-            //таблицы 
+            var tableUserControl = new TablesUserControl();
+            ToggleUserControl1(tableUserControl, panel3, button43, "Таблицы");
         }
 
         private void button45_Click(object sender, EventArgs e)
         {
-            //Описание БД
+            var descriptionControl = new DescriptionDbUserControl();
+            ToggleUserControl1(descriptionControl, panel3, button45, "Описание БД");
         }
+
     }
 }
