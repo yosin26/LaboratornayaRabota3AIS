@@ -214,10 +214,10 @@
     <Compile Include="Windows\LeftJoinUserControl.Designer.cs">
       <DependentUpon>LeftJoinUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\LimitOffsetUserControl.cs">
+    <Compile Include="Windows\Ready\LimitOffsetUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\LimitOffsetUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\LimitOffsetUserControl.Designer.cs">
       <DependentUpon>LimitOffsetUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Windows\MainUserControl.cs">
@@ -226,10 +226,10 @@
     <Compile Include="Windows\MainUserControl.Designer.cs">
       <DependentUpon>MainUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\OrderByUserControl.cs">
+    <Compile Include="Windows\Ready\OrderByUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\OrderByUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\OrderByUserControl.Designer.cs">
       <DependentUpon>OrderByUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Windows\RightUserControl.cs">
@@ -317,13 +317,13 @@
     <EmbeddedResource Include="Windows\LeftJoinUserControl.resx">
       <DependentUpon>LeftJoinUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows\LimitOffsetUserControl.resx">
+    <EmbeddedResource Include="Windows\Ready\LimitOffsetUserControl.resx">
       <DependentUpon>LimitOffsetUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\MainUserControl.resx">
       <DependentUpon>MainUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows\OrderByUserControl.resx">
+    <EmbeddedResource Include="Windows\Ready\OrderByUserControl.resx">
       <DependentUpon>OrderByUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\Ready\SelectUserControl.resx">
@@ -408,6 +408,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Снимок экрана 2024-11-10 172405.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 190226.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 190242.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 190253.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 190649.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 190658.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 190705.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 191240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 191250.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 191301.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
