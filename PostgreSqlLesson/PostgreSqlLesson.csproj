@@ -130,10 +130,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Windows\BetweenInNotinUserControl.cs">
+    <Compile Include="Windows\Ready\BetweenInNotinUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\BetweenInNotinUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\BetweenInNotinUserControl.Designer.cs">
       <DependentUpon>BetweenInNotinUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Windows\ColumnСoncatenationUserControl.cs">
@@ -142,118 +142,124 @@
     <Compile Include="Windows\ColumnСoncatenationUserControl.Designer.cs">
       <DependentUpon>ColumnСoncatenationUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\CrossJoinUserControl.cs">
+    <Compile Include="Windows\Ready\CrossJoinUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\CrossJoinUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\CrossJoinUserControl.Designer.cs">
       <DependentUpon>CrossJoinUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\DistinctUserControl.cs">
+    <Compile Include="Windows\DB\SchemasUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\DistinctUserControl.Designer.cs">
+    <Compile Include="Windows\DB\SchemasUserControl.Designer.cs">
+      <DependentUpon>SchemasUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Ready\DistinctUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\Ready\DistinctUserControl.Designer.cs">
       <DependentUpon>DistinctUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\ExceptUserControl.cs">
+    <Compile Include="Windows\Ready\ExceptUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\ExceptUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\ExceptUserControl.Designer.cs">
       <DependentUpon>ExceptUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\FuncAvgUserControl.cs">
+    <Compile Include="Windows\Ready\FuncAvgUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\FuncAvgUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\FuncAvgUserControl.Designer.cs">
       <DependentUpon>FuncAvgUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\FuncCountUserControl.cs">
+    <Compile Include="Windows\Ready\FuncCountUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\FuncCountUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\FuncCountUserControl.Designer.cs">
       <DependentUpon>FuncCountUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\FuncSumUserControl.cs">
+    <Compile Include="Windows\Ready\FuncSumUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\FuncSumUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\FuncSumUserControl.Designer.cs">
       <DependentUpon>FuncSumUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\GroupByUserControl.cs">
+    <Compile Include="Windows\Ready\GroupByUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\GroupByUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\GroupByUserControl.Designer.cs">
       <DependentUpon>GroupByUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\HavingUserControl.cs">
+    <Compile Include="Windows\Ready\HavingUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\HavingUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\HavingUserControl.Designer.cs">
       <DependentUpon>HavingUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\InnerJoinUserControl.cs">
+    <Compile Include="Windows\Ready\InnerJoinUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\InnerJoinUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\InnerJoinUserControl.Designer.cs">
       <DependentUpon>InnerJoinUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\IntersectUserControl.cs">
+    <Compile Include="Windows\Ready\IntersectUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\IntersectUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\IntersectUserControl.Designer.cs">
       <DependentUpon>IntersectUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\LeftJoinUserControl.cs">
+    <Compile Include="Windows\Ready\LeftJoinUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\LeftJoinUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\LeftJoinUserControl.Designer.cs">
       <DependentUpon>LeftJoinUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\LimitOffsetUserControl.cs">
+    <Compile Include="Windows\Ready\LimitOffsetUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\LimitOffsetUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\LimitOffsetUserControl.Designer.cs">
       <DependentUpon>LimitOffsetUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\MainUserControl.cs">
+    <Compile Include="Windows\Requester\MainUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\MainUserControl.Designer.cs">
+    <Compile Include="Windows\Requester\MainUserControl.Designer.cs">
       <DependentUpon>MainUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\OrderByUserControl.cs">
+    <Compile Include="Windows\Ready\OrderByUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\OrderByUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\OrderByUserControl.Designer.cs">
       <DependentUpon>OrderByUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\RightUserControl.cs">
+    <Compile Include="Windows\Ready\RightUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\RightUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\RightUserControl.Designer.cs">
       <DependentUpon>RightUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\SelectUserControl.cs">
+    <Compile Include="Windows\Ready\SelectUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\SelectUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\SelectUserControl.Designer.cs">
       <DependentUpon>SelectUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\SubqueriesUserControl.cs">
+    <Compile Include="Windows\Ready\SubqueriesUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\SubqueriesUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\SubqueriesUserControl.Designer.cs">
       <DependentUpon>SubqueriesUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\UnionUserControl.cs">
+    <Compile Include="Windows\Ready\UnionUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\UnionUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\UnionUserControl.Designer.cs">
       <DependentUpon>UnionUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\WhereUserControl.cs">
+    <Compile Include="Windows\Ready\WhereUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\WhereUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\WhereUserControl.Designer.cs">
       <DependentUpon>WhereUserControl.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="MainWindow\Form1.resx">
@@ -267,20 +273,72 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Windows\BetweenInNotinUserControl.resx">
+    <EmbeddedResource Include="Windows\Ready\BetweenInNotinUserControl.resx">
       <DependentUpon>BetweenInNotinUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows\HavingUserControl.resx">
+    <EmbeddedResource Include="Windows\ColumnСoncatenationUserControl.resx">
+      <DependentUpon>ColumnСoncatenationUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Ready\CrossJoinUserControl.resx">
+      <DependentUpon>CrossJoinUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\DB\SchemasUserControl.resx">
+      <DependentUpon>SchemasUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Ready\DistinctUserControl.resx">
+      <DependentUpon>DistinctUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Ready\ExceptUserControl.resx">
+      <DependentUpon>ExceptUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Ready\FuncAvgUserControl.resx">
+      <DependentUpon>FuncAvgUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Ready\FuncCountUserControl.resx">
+      <DependentUpon>FuncCountUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Ready\FuncSumUserControl.resx">
+      <DependentUpon>FuncSumUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Ready\GroupByUserControl.resx">
+      <DependentUpon>GroupByUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Ready\HavingUserControl.resx">
       <DependentUpon>HavingUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows\MainUserControl.resx">
+    <EmbeddedResource Include="Windows\Ready\InnerJoinUserControl.resx">
+      <DependentUpon>InnerJoinUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Ready\IntersectUserControl.resx">
+      <DependentUpon>IntersectUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Ready\LeftJoinUserControl.resx">
+      <DependentUpon>LeftJoinUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Ready\LimitOffsetUserControl.resx">
+      <DependentUpon>LimitOffsetUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Requester\MainUserControl.resx">
       <DependentUpon>MainUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows\SelectUserControl.resx">
+    <EmbeddedResource Include="Windows\Ready\OrderByUserControl.resx">
+      <DependentUpon>OrderByUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Ready\SelectUserControl.resx">
       <DependentUpon>SelectUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows\WhereUserControl.resx">
+    <EmbeddedResource Include="Windows\Ready\RightUserControl.resx">
+      <DependentUpon>RightUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Ready\SubqueriesUserControl.resx">
+      <DependentUpon>SubqueriesUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Ready\UnionUserControl.resx">
+      <DependentUpon>UnionUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Ready\WhereUserControl.resx">
       <DependentUpon>WhereUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
@@ -296,6 +354,177 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 162431.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 163833.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 164259.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 164627.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 1959241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 1959401.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 2002151.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 2021011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 2021181.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 2022391.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 2036302.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 205917.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 205929.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-09 210315.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 171321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 172106.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 172118.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 172405.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 190226.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 190242.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 190253.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 190649.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 190658.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 190705.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 191240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 191250.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 191301.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 194846.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 194857.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 194912.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 195533.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 195541.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 195552.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 200441.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 200514.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 200531.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 212938.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 212958.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 213017.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 213409.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 213418.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 213429.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 214051.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 214103.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 214111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 214430.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 214446.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 214506.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 214951.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 215004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 215013.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 215505.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 215515.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 215522.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 215835.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 215920.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 220030.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
