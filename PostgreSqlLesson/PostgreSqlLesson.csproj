@@ -160,10 +160,10 @@
     <Compile Include="Windows\Ready\DistinctUserControl.Designer.cs">
       <DependentUpon>DistinctUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\ExceptUserControl.cs">
+    <Compile Include="Windows\Ready\ExceptUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\ExceptUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\ExceptUserControl.Designer.cs">
       <DependentUpon>ExceptUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Windows\FuncAvgUserControl.cs">
@@ -196,16 +196,16 @@
     <Compile Include="Windows\Ready\HavingUserControl.Designer.cs">
       <DependentUpon>HavingUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\InnerJoinUserControl.cs">
+    <Compile Include="Windows\Ready\InnerJoinUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\InnerJoinUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\InnerJoinUserControl.Designer.cs">
       <DependentUpon>InnerJoinUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\IntersectUserControl.cs">
+    <Compile Include="Windows\Ready\IntersectUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\IntersectUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\IntersectUserControl.Designer.cs">
       <DependentUpon>IntersectUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Windows\LeftJoinUserControl.cs">
@@ -250,10 +250,10 @@
     <Compile Include="Windows\SubqueriesUserControl.Designer.cs">
       <DependentUpon>SubqueriesUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\UnionUserControl.cs">
+    <Compile Include="Windows\Ready\UnionUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\UnionUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\UnionUserControl.Designer.cs">
       <DependentUpon>UnionUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Windows\Ready\WhereUserControl.cs">
@@ -290,7 +290,7 @@
     <EmbeddedResource Include="Windows\Ready\DistinctUserControl.resx">
       <DependentUpon>DistinctUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows\ExceptUserControl.resx">
+    <EmbeddedResource Include="Windows\Ready\ExceptUserControl.resx">
       <DependentUpon>ExceptUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\FuncAvgUserControl.resx">
@@ -308,10 +308,10 @@
     <EmbeddedResource Include="Windows\Ready\HavingUserControl.resx">
       <DependentUpon>HavingUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows\InnerJoinUserControl.resx">
+    <EmbeddedResource Include="Windows\Ready\InnerJoinUserControl.resx">
       <DependentUpon>InnerJoinUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows\IntersectUserControl.resx">
+    <EmbeddedResource Include="Windows\Ready\IntersectUserControl.resx">
       <DependentUpon>IntersectUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\LeftJoinUserControl.resx">
@@ -335,7 +335,7 @@
     <EmbeddedResource Include="Windows\SubqueriesUserControl.resx">
       <DependentUpon>SubqueriesUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows\UnionUserControl.resx">
+    <EmbeddedResource Include="Windows\Ready\UnionUserControl.resx">
       <DependentUpon>UnionUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\Ready\WhereUserControl.resx">
@@ -435,6 +435,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Снимок экрана 2024-11-10 191301.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 194846.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 194857.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 194912.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 195533.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 195541.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 195552.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 200441.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 200514.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 200531.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
