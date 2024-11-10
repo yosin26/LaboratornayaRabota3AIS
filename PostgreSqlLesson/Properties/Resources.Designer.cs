@@ -199,5 +199,35 @@ namespace PostgreSqlLesson.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Снимок_экрана_2024_11_10_171321 {
+            get {
+                object obj = ResourceManager.GetObject("Снимок экрана 2024-11-10 171321", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Снимок_экрана_2024_11_10_171701 {
+            get {
+                object obj = ResourceManager.GetObject("Снимок экрана 2024-11-10 171701", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Снимок_экрана_2024_11_10_171816 {
+            get {
+                object obj = ResourceManager.GetObject("Снимок экрана 2024-11-10 171816", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

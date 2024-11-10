@@ -130,10 +130,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Windows\BetweenInNotinUserControl.cs">
+    <Compile Include="Windows\Ready\BetweenInNotinUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\BetweenInNotinUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\BetweenInNotinUserControl.Designer.cs">
       <DependentUpon>BetweenInNotinUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Windows\ColumnСoncatenationUserControl.cs">
@@ -275,7 +275,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Windows\BetweenInNotinUserControl.resx">
+    <EmbeddedResource Include="Windows\Ready\BetweenInNotinUserControl.resx">
       <DependentUpon>BetweenInNotinUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\ColumnСoncatenationUserControl.resx">
@@ -396,6 +396,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Снимок экрана 2024-11-09 210315.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 171321.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
