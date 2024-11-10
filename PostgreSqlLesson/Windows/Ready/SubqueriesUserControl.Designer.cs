@@ -30,8 +30,8 @@
         {
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,6 +55,7 @@
             // 
             // flowLayoutPanel2
             // 
+            this.flowLayoutPanel2.BackgroundImage = global::PostgreSqlLesson.Properties.Resources.Снимок_экрана_2024_11_10_215522;
             this.flowLayoutPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel2.Location = new System.Drawing.Point(1018, 48);
@@ -62,23 +63,25 @@
             this.flowLayoutPanel2.Size = new System.Drawing.Size(503, 443);
             this.flowLayoutPanel2.TabIndex = 2;
             // 
-            // panel1
-            // 
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(3, 48);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(501, 443);
-            this.panel1.TabIndex = 0;
-            // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.BackgroundImage = global::PostgreSqlLesson.Properties.Resources.Снимок_экрана_2024_11_10_215515;
             this.flowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(510, 48);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(502, 443);
             this.flowLayoutPanel1.TabIndex = 1;
+            // 
+            // panel1
+            // 
+            this.panel1.BackgroundImage = global::PostgreSqlLesson.Properties.Resources.Снимок_экрана_2024_11_10_215505;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(3, 48);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(501, 443);
+            this.panel1.TabIndex = 0;
             // 
             // SubqueriesUserControl
             // 

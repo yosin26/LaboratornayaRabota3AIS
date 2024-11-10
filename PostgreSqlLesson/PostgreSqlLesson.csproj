@@ -172,10 +172,10 @@
     <Compile Include="Windows\Ready\FuncAvgUserControl.Designer.cs">
       <DependentUpon>FuncAvgUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\FuncCountUserControl.cs">
+    <Compile Include="Windows\Ready\FuncCountUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\FuncCountUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\FuncCountUserControl.Designer.cs">
       <DependentUpon>FuncCountUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Windows\Ready\FuncSumUserControl.cs">
@@ -220,10 +220,10 @@
     <Compile Include="Windows\Ready\LimitOffsetUserControl.Designer.cs">
       <DependentUpon>LimitOffsetUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\MainUserControl.cs">
+    <Compile Include="Windows\Requester\MainUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\MainUserControl.Designer.cs">
+    <Compile Include="Windows\Requester\MainUserControl.Designer.cs">
       <DependentUpon>MainUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Windows\Ready\OrderByUserControl.cs">
@@ -244,10 +244,10 @@
     <Compile Include="Windows\Ready\SelectUserControl.Designer.cs">
       <DependentUpon>SelectUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\SubqueriesUserControl.cs">
+    <Compile Include="Windows\Ready\SubqueriesUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\SubqueriesUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\SubqueriesUserControl.Designer.cs">
       <DependentUpon>SubqueriesUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Windows\Ready\UnionUserControl.cs">
@@ -296,7 +296,7 @@
     <EmbeddedResource Include="Windows\Ready\FuncAvgUserControl.resx">
       <DependentUpon>FuncAvgUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows\FuncCountUserControl.resx">
+    <EmbeddedResource Include="Windows\Ready\FuncCountUserControl.resx">
       <DependentUpon>FuncCountUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\Ready\FuncSumUserControl.resx">
@@ -320,7 +320,7 @@
     <EmbeddedResource Include="Windows\Ready\LimitOffsetUserControl.resx">
       <DependentUpon>LimitOffsetUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows\MainUserControl.resx">
+    <EmbeddedResource Include="Windows\Requester\MainUserControl.resx">
       <DependentUpon>MainUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\Ready\OrderByUserControl.resx">
@@ -332,7 +332,7 @@
     <EmbeddedResource Include="Windows\Ready\RightUserControl.resx">
       <DependentUpon>RightUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows\SubqueriesUserControl.resx">
+    <EmbeddedResource Include="Windows\Ready\SubqueriesUserControl.resx">
       <DependentUpon>SubqueriesUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\Ready\UnionUserControl.resx">
@@ -507,6 +507,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Снимок экрана 2024-11-10 215013.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 215505.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 215515.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 215522.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 215835.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 215920.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-10 220030.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
