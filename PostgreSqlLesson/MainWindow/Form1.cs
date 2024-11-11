@@ -456,7 +456,7 @@ namespace PostgreSqlLesson
             OpenUserControlInPanel(_subqueryControl, panel41);
         }
 
-        private void button40_Click(object sender, EventArgs e)
+        private void button40_Click_1(object sender, EventArgs e)
         {
             _concatControl = new ColumnСoncatenationUserControl();
             ToggleUserControl(_concatControl, panel43, button40, "Теория");
@@ -576,5 +576,9 @@ namespace PostgreSqlLesson
             ToggleUserControl1(descriptionControl, panel3, button45, "Описание БД");
         }
 
+        private void button40_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
