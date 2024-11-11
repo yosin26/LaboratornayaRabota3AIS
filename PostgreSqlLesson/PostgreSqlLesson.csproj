@@ -130,16 +130,28 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Windows\DB\DescriptionDbUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\DB\DescriptionDbUserControl.Designer.cs">
+      <DependentUpon>DescriptionDbUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\DB\TablesUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\DB\TablesUserControl.Designer.cs">
+      <DependentUpon>TablesUserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Windows\Ready\BetweenInNotinUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Windows\Ready\BetweenInNotinUserControl.Designer.cs">
       <DependentUpon>BetweenInNotinUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\ColumnСoncatenationUserControl.cs">
+    <Compile Include="Windows\Ready\ColumnСoncatenationUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Windows\ColumnСoncatenationUserControl.Designer.cs">
+    <Compile Include="Windows\Ready\ColumnСoncatenationUserControl.Designer.cs">
       <DependentUpon>ColumnСoncatenationUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Windows\Ready\CrossJoinUserControl.cs">
@@ -275,10 +287,16 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Windows\DB\DescriptionDbUserControl.resx">
+      <DependentUpon>DescriptionDbUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\DB\TablesUserControl.resx">
+      <DependentUpon>TablesUserControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Windows\Ready\BetweenInNotinUserControl.resx">
       <DependentUpon>BetweenInNotinUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows\ColumnСoncatenationUserControl.resx">
+    <EmbeddedResource Include="Windows\Ready\ColumnСoncatenationUserControl.resx">
       <DependentUpon>ColumnСoncatenationUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\Ready\CrossJoinUserControl.resx">
@@ -525,6 +543,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Снимок экрана 2024-11-10 220030.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2024-11-11 152111.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

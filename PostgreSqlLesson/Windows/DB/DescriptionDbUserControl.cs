@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PostgreSqlLesson.Windows
+namespace PostgreSqlLesson.Windows.DB
 {
-    public partial class ColumnСoncatenationUserControl : UserControl
+    public partial class DescriptionDbUserControl : UserControl
     {
-        public ColumnСoncatenationUserControl()
+        public DescriptionDbUserControl()
         {
             InitializeComponent();
         }
